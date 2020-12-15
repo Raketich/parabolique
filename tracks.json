@@ -1,0 +1,16 @@
+{
+    "tracks": [{
+        "id": 1,
+        "title": "Monza",
+        "country": "Italy",
+        "dateInfo": {
+            "firstRace": 1950,
+            "totalRaces": 70
+        },
+        "techInfo": {
+            "length": 5777,
+            "significantElements": 8,
+            "mostKnownElement": "Curva Parabolica"
+        }
+    }]
+}

@@ -1,0 +1,304 @@
+{
+    "teams": [{
+            "id": 1,
+            "title": "Ferrari",
+            "teamname": "ferrari",
+            "image": "SF-1000.jpg",
+            "country": "Italy",
+            "location": "Maranello",
+            "constructorTitles": 15,
+            "personalTitles": 24,
+            "logoImage": "logo-small.png",
+            "colors": {
+                "mainColor": "rgba(255, 57, 57, 0.9)",
+                "secondColor": "#fff"
+            },
+            "yearData": [{
+                    "year": 2020,
+                    "constructorsCup": 5,
+                    "car": "SF1000",
+                    "carImage": "SF-1000.jpg",
+                    "driver_1": {
+                        "name": "Charley Leclairc",
+                        "number": 16
+                    },
+                    "driver_2": {
+                        "name": "Sebastian Fettel",
+                        "number": 5
+                    }
+                },
+                {
+                    "year": 2019,
+                    "constructorsCup": 2,
+                    "car": "SF90",
+                    "carImage": "ferrari-sf90-2019.jpg",
+                    "driver_1": {
+                        "name": "Sebastian Fettel",
+                        "number": 5
+                    },
+                    "driver_2": {
+                        "name": "Charley Leclairc",
+                        "number": 16
+                    }
+                },
+                {
+                    "year": 2018,
+                    "constructorsCup": 2,
+                    "car": "SF2018",
+                    "carImage": "ferrari-SF71H-2018.jpg",
+                    "driver_1": {
+                        "name": "Sebastian Fettel",
+                        "number": 5
+                    },
+                    "driver_2": {
+                        "name": "Kimi Raikonnen",
+                        "number": 7
+                    }
+                },
+                {
+                    "year": 2017,
+                    "constructorsCup": 3,
+                    "car": "SF2017",
+                    "carImage": "ferrari-SF70H-2017.jpg",
+                    "driver_1": {
+                        "name": "Sebastian Fettel",
+                        "number": 5
+                    },
+                    "driver_2": {
+                        "name": "Kimi Raikonnen",
+                        "number": 7
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "McLaren",
+            "teamname": "mclaren",
+            "country": "England",
+            "location": "Somewhere",
+            "constructorTitles": 5,
+            "personalTitles": 14,
+            "logoImage": "mclaren-logo.png",
+            "colors": {
+                "mainColor": "orange",
+                "secondColor": "#fff"
+            },
+            "yearData": [{
+                    "year": 2020,
+                    "constructorsCup": 3,
+                    "car": "MCL34",
+                    "carImage": "mclaren-mcl34-2020.jpg",
+                    "driver_1": {
+                        "name": "Carloz Sainz",
+                        "number": 55
+                    },
+                    "driver_2": {
+                        "name": "Lando Norris",
+                        "number": 4
+                    }
+                },
+                {
+                    "year": 2019,
+                    "constructorsCup": 4,
+                    "car": "MCL33",
+                    "carImage": "mclaren-mcl33-2019.jpg",
+                    "driver_1": {
+                        "name": "Carloz Sainz",
+                        "number": 55
+                    },
+                    "driver_2": {
+                        "name": "Lando Norris",
+                        "number": 4
+                    }
+                }, {
+                    "year": 2018,
+                    "constructorsCup": 5,
+                    "car": "MCL32",
+                    "carImage": "mclaren-mcl32-2018.jpg",
+                    "driver_1": {
+                        "name": "Fernando Alonso",
+                        "number": 14
+                    },
+                    "driver_2": {
+                        "name": "Stoffel Vandoorne",
+                        "number": 2
+                    }
+                },
+                {
+                    "year": 2017,
+                    "constructorsCup": 4,
+                    "car": "MCL31",
+                    "carImage": "mclaren-mcl31-2017.jpg",
+                    "driver_1": {
+                        "name": "Fernando Alonso",
+                        "number": 14
+                    },
+                    "driver_2": {
+                        "name": "Stoffel Vandoorne",
+                        "number": 2
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Williams",
+            "teamname": "williams",
+            "country": "England",
+            "location": "Somewhere",
+            "constructorTitles": 5,
+            "personalTitles": 14,
+            "logoImage": "logo.png",
+            "colors": {
+                "mainColor": "silver",
+                "secondColor": "#fff"
+            },
+            "yearData": [{
+                    "year": 2020,
+                    "constructorsCup": 10,
+                    "car": "FW43",
+                    "carImage": "williams-fw43-2020.jpg",
+                    "driver_1": {
+                        "name": "George Russel",
+                        "number": 63
+                    },
+                    "driver_2": {
+                        "name": "Nicolas Latifi",
+                        "number": 8
+                    }
+                },
+                {
+                    "year": 2019,
+                    "constructorsCup": 10,
+                    "car": "FW42",
+                    "carImage": "williams-fw42-2019.jpg",
+                    "driver_1": {
+                        "name": "George Russel",
+                        "number": 63
+                    },
+                    "driver_2": {
+                        "name": "Robert Kubica",
+                        "number": 88
+                    }
+                },
+                {
+                    "year": 2018,
+                    "constructorsCup": 10,
+                    "car": "FW41",
+                    "carImage": "williams-fw41-2018.png",
+                    "driver_1": {
+                        "name": "Lance Stroll",
+                        "number": 18
+                    },
+                    "driver_2": {
+                        "name": "Sergej Sirotkin",
+                        "number": 35
+                    }
+                },
+                {
+                    "year": 2017,
+                    "constructorsCup": 10,
+                    "car": "FW40",
+                    "carImage": "williams-fw40-2017.jpg",
+                    "driver_1": {
+                        "name": "Felipe Massa",
+                        "number": 19
+                    },
+                    "driver_2": {
+                        "name": "Lance Stroll",
+                        "number": 18
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Mercedes",
+            "teamname": "mercedes",
+            "country": "Germany",
+            "location": "Brakley",
+            "constructorTitles": 7,
+            "personalTitles": 8,
+            "logoImage": "merc-logo.png",
+            "colors": {
+                "mainColor": "#ADAEB0",
+                "secondColor": "#fff"
+            },
+            "yearData": [{
+                    "year": 2020,
+                    "constructorsCup": 1,
+                    "car": "W11",
+                    "carImage": "mercedes-w11-2020.jpeg",
+                    "driver_1": {
+                        "name": "Louis Hamilton",
+                        "number": 44
+                    },
+                    "driver_2": {
+                        "name": "Valtteri Bottas",
+                        "number": 77
+                    }
+                },
+                {
+                    "year": 2019,
+                    "constructorsCup": 1,
+                    "car": "W10",
+                    "carImage": "mercedes-w10-2019.jpg",
+                    "driver_1": {
+                        "name": "Louis Hamilton",
+                        "number": 44
+                    },
+                    "driver_2": {
+                        "name": "Valtteri Bottas",
+                        "number": 77
+                    }
+                },
+                {
+                    "year": 2018,
+                    "constructorsCup": 1,
+                    "car": "W09",
+                    "carImage": "mercedes-w09-2018.jpg",
+                    "driver_1": {
+                        "name": "Louis Hamilton",
+                        "number": 44
+                    },
+                    "driver_2": {
+                        "name": "Valtteri Bottas",
+                        "number": 77
+                    }
+                },
+                {
+                    "year": 2017,
+                    "constructorsCup": 1,
+                    "car": "W08",
+                    "carImage": "mercedes-w08-2017.jpg",
+                    "driver_1": {
+                        "name": "Louis Hamilton",
+                        "number": 44
+                    },
+                    "driver_2": {
+                        "name": "Nico Rosberg",
+                        "number": 8
+                    }
+                }
+            ]
+        }
+
+    ],
+
+    "tracks": [{
+        "id": 1,
+        "section": "track",
+        "title": "Monza",
+        "country": "Italy",
+        "dateInfo": {
+            "firstRace": 1950,
+            "totalRaces": 70
+        },
+        "techInfo": {
+            "length": 5777,
+            "significantElements": 8,
+            "mostKnownElement": "Curva Parabolica"
+        }
+    }]
+}

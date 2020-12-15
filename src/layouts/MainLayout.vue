@@ -1,0 +1,35 @@
+<template>
+  <div class="main-layout">
+    <AppHeader />
+    <router-view></router-view>
+    <AppFooter />
+  </div>
+</template>
+
+<script>
+import AppHeader from "@/components/AppComponents/AppHeader";
+import AppFooter from "@/components/AppComponents/AppFooter";
+export default {
+  name: "MainLayout",
+  components: {
+    AppHeader,
+    AppFooter
+  }
+};
+</script>
+
+<style lang="scss" scoped>
+.main-layout {
+  background: rgba(228, 228, 228, 0.445);
+  // background-color: #dcdcdc;
+  // background-image: linear-gradient(
+  //   40deg,
+  //   transparent 50%,
+  //   rgba(255, 255, 255, 0.5) 50%
+  // );
+  // background-size: 100px;
+
+  // background-color: #ffffff4d;
+  // background-image: url("data:image/svg+xml,%3Csvg width='150' height='150' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.1' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+}
+</style>
