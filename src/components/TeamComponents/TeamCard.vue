@@ -16,12 +16,22 @@
         </div>
       </div>
       <div class="team-card__bottom">
-        <div class="constructor-cups">Constructor Championship Cups {{teamData.constructorTitles}}</div>
-        <div class="personal-cups">Driver Championship Cup {{teamData.personalTitles}}</div>
+        <div
+          class="constructor-cups"
+        >Constructor Championship Cups {{teamData.constructorTitles}}</div>
+        <div
+          class="personal-cups"
+        >Driver Championship Cup {{teamData.personalTitles}}</div>
       </div>
     </div>
-    <div class="expand-artificial-data" @click="showAdditionalData">more</div>
-    <div class="team-card__expanded-block" v-show="isExpandedDataVisible">
+    <div
+      class="expand-artificial-data"
+      @click="showAdditionalData"
+    >more</div>
+    <div
+      class="team-card__expanded-block"
+      v-show="isExpandedDataVisible"
+    >
       <p>{{teamData.country}}</p>
       <p>{{teamData.location}}</p>
       <p>additional data</p>
@@ -45,34 +55,25 @@ export default {
     }
   },
   methods: {
-    // копипаста проверка !переписать эту шляпу
     showAdditionalData() {
       if (window.innerWidth > 650) {
-        if (!this.isExpandedDataVisible) {
-          this.isExpandedDataVisible = true;
-          this.$refs.teamCard.style.width = 600 + "px";
-          this.$refs.teamCard.style.height = 500 + "px";
-          this.$refs.teamCardLogo.classList.add("add-data-expanded");
-        } else {
-          this.isExpandedDataVisible = false;
-          this.$refs.teamCard.style.width = 350 + "px";
-          this.$refs.teamCard.style.height = 400 + "px";
-          this.$refs.teamCardLogo.classList.remove("add-data-expanded");
-        }
+        this.makeTeamYearCardDesingChanges(600, 500);
       } else {
-        {
-          if (!this.isExpandedDataVisible) {
-            this.isExpandedDataVisible = true;
-            this.$refs.teamCard.style.width = 350 + "px";
-            this.$refs.teamCard.style.height = 600 + "px";
-            this.$refs.teamCardLogo.classList.add("add-data-expanded");
-          } else {
-            this.isExpandedDataVisible = false;
-            this.$refs.teamCard.style.width = 350 + "px";
-            this.$refs.teamCard.style.height = 400 + "px";
-            this.$refs.teamCardLogo.classList.remove("add-data-expanded");
-          }
-        }
+        this.makeTeamYearCardDesingChanges(350, 600);
+      }
+    },
+
+    makeTeamYearCardDesingChanges(width, height) {
+      if (!this.isExpandedDataVisible) {
+        this.isExpandedDataVisible = true;
+        this.$refs.teamCard.style.width = width + "px";
+        this.$refs.teamCard.style.height = height + "px";
+        this.$refs.teamCardLogo.classList.add("add-data-expanded");
+      } else {
+        this.isExpandedDataVisible = false;
+        this.$refs.teamCard.style.width = 350 + "px";
+        this.$refs.teamCard.style.height = 400 + "px";
+        this.$refs.teamCardLogo.classList.remove("add-data-expanded");
       }
     }
   }

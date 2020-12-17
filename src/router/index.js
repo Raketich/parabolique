@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import NotFound from "../views/mainViews/NotFound.vue";
 
 Vue.use(VueRouter);
 
@@ -44,7 +45,20 @@ const routes = [
     path: "/teams/:teamname",
     name: "TeamView",
     meta: { layout: "team" },
-    component: () => import("@/views/mainViews/Teams/TeamView.vue")
+    component: () => import("@/views/mainViews/Teams/TeamView.vue"),
+    children: [
+      {
+        path: "*/*",
+        name: "NotFound",
+        component: NotFound
+      }
+    ]
+  },
+
+  {
+    path: "*",
+    name: "NotFound",
+    component: NotFound
   }
 ];
 

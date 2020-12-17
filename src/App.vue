@@ -7,6 +7,8 @@
 </template>
 
 <script>
+import { mapActions } from "vuex";
+
 import MainLayout from "@/layouts/MainLayout";
 import TeamLayout from "@/layouts/TeamLayout";
 import HomeLayout from "@/layouts/HomeLayout";
@@ -21,6 +23,12 @@ export default {
     layout() {
       return this.$route.meta.layout + "-layout";
     }
+  },
+  methods: {
+    ...mapActions(["GET_TEAMS_FROM_API"])
+  },
+  mounted() {
+    this.GET_TEAMS_FROM_API();
   }
 };
 </script>
